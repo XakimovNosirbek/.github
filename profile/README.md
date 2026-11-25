@@ -13,6 +13,15 @@ Each project is an atlas you can open in a web browser, with its code and data p
 | [Ocean Life Atlas](https://oceanlife.bristleconelab.org) | The animals and plants recorded in any part of the sea | OBIS, WoRMS, Wikidata | [repo](https://github.com/bristleconelab/ocean-life-atlas) |
 | [Cosmic Atlas](https://cosmic.bristleconelab.org) | 39.6 million stars and 15 million galaxies, each at its measured position | Gaia, DESI | [repo](https://github.com/bristleconelab/cosmic-atlas) |
 
+### Research code
+
+| Project | What it does | Built on |
+| --- | --- | --- |
+| [glof-watch](https://github.com/bristleconelab/glof-watch) | Measures glacial lakes in every clear satellite scene and checks a watchlist each week for fast growth or sudden drainage | Sentinel-2, Sentinel-1, Glacial Lake Observatory |
+| [fossil-scout](https://github.com/bristleconelab/fossil-scout) | Ranks ground by how much it looks like known Hell Creek fossil sites, tested on an area the model never saw | Sentinel-2, Copernicus DEM, Paleobiology Database |
+| [iceland-volcano-watch](https://github.com/bristleconelab/iceland-volcano-watch) | How much magma has collected beneath Svartsengi, and how sure we can be | NGL GNSS, Sentinel-1, IMO earthquakes |
+| [vesuvius-pipeline](https://github.com/bristleconelab/vesuvius-pipeline) | A reproducible, CPU-only pipeline for reading ink in the Herculaneum scrolls | Vesuvius Challenge scans |
+
 ### Preprints
 
 - *A reproducible global atlas of earthquake-catalogue completeness and b-value with uncertainty.*
@@ -20,7 +29,7 @@ Each project is an atlas you can open in a web browser, with its code and data p
 - *Where open geodetic data cannot check for magma accumulation beneath populated active volcanoes.*
   EarthArXiv, 2026. [doi:10.31223/X5C23N](https://doi.org/10.31223/X5C23N)
 
-Work in progress, not yet public: ground deformation from InSAR, glacial lake outburst floods, airborne lidar and Gaia astrometry.
+Work in progress, not yet public: ground deformation from InSAR, airborne lidar and Gaia astrometry.
 
 <sub>Logos and brand files: [brand/](https://github.com/bristleconelab/.github/tree/main/brand).
 Banner imagery from NASA Blue Marble and Black Marble (public domain).</sub>
